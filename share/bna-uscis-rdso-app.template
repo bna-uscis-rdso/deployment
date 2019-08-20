@@ -1,0 +1,16 @@
+{
+  "family": "FAMILY",
+  "containerDefinitions": [
+    {
+      "name": "NAME",
+      "image": "VERSION",
+      "memory": 128,
+      "portMappings": [
+	{
+	  "containerPort": 80,
+	  "protocol": "tcp"
+	}
+      ]
+    }
+  ]
+}

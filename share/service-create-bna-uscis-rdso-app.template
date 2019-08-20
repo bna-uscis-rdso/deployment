@@ -1,0 +1,18 @@
+{
+    "cluster": "CLUSTER",
+    "serviceName": "SERVICE",
+    "taskDefinition": "TASKDEFINITION_ARN",
+    "loadBalancers": [
+	{
+	    "targetGroupArn": "TARGET_GROUP_ARN",
+	    "containerName": "NAME",
+	    "containerPort": 80
+	}
+    ],
+    "desiredCount": 1,
+    "role": "ROLE",
+    "deploymentConfiguration": {
+	"maximumPercent": 100,
+	"minimumHealthyPercent": 0
+    }
+}
